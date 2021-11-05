@@ -1,5 +1,5 @@
-# hello-world
-#URI check
+# hello-world #URI check
+
 Function URIcheck {
 $curl = Read-Host "Enter URL Here"
 $result = (curl $curl).StatusCode
